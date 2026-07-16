@@ -32,7 +32,10 @@ namespace Application.Services
         public async Task<ProductDto?> GetByIdAsync(int id)
         {
             var product = await _repository.GetByIdAsync(id);
-            if (product == null) return null;
+            if (product == null)
+            {
+                throw new KeyNotFoundException($"Product with ID {id} not found.");
+            }
 
             return new ProductDto { Id = product.Id, ProductName = product.ProductName };
         }

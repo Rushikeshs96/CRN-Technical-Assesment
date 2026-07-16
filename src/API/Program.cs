@@ -1,3 +1,4 @@
+using API.Middleware;
 using Application.Interfaces;
 using Infrastructure.Data;
 using Infrastructure.Repositories;
@@ -21,6 +22,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+app.UseMiddleware<ExceptionHandlingMiddleware>();
+
 
 using (var scope = app.Services.CreateScope())
 {
