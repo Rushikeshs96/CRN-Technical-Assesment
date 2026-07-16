@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Rushikesh\\Desktop\\INTERVIEW\\Assesment\\CRN-Technical-Assesment\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\API\\API.csproj|c:\\users\\rushikesh\\desktop\\interview\\assesment\\crn-technical-assesment\\src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\API\\API.csproj|solutionrelative:src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|src\\Application\\Application.csproj|c:\\users\\rushikesh\\desktop\\interview\\assesment\\crn-technical-assesment\\src\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\rushikesh\\desktop\\interview\\assesment\\crn-technical-assesment\\src\\infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|src\\Application\\Application.csproj|c:\\users\\rushikesh\\desktop\\interview\\assesment\\crn-technical-assesment\\src\\application\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|src\\Application\\Application.csproj|solutionrelative:src\\application\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\API\\API.csproj|c:\\users\\rushikesh\\desktop\\interview\\assesment\\crn-technical-assesment\\src\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CBAFC0F9-5B69-AE5B-776E-B650E010DF04}|src\\API\\API.csproj|solutionrelative:src\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,6 +59,75 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rushikesh\\Desktop\\INTERVIEW\\Assesment\\CRN-Technical-Assesment\\src\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Rushikesh\\Desktop\\INTERVIEW\\Assesment\\CRN-Technical-Assesment\\src\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T17:30:52.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rushikesh\\Desktop\\INTERVIEW\\Assesment\\CRN-Technical-Assesment\\src\\Application\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Rushikesh\\Desktop\\INTERVIEW\\Assesment\\CRN-Technical-Assesment\\src\\Application\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "src\\Application\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T17:29:46.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Rushikesh\\Desktop\\INTERVIEW\\Assesment\\CRN-Technical-Assesment\\src\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Rushikesh\\Desktop\\INTERVIEW\\Assesment\\CRN-Technical-Assesment\\src\\API\\appsettings.json",
+              "RelativeToolTip": "src\\API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-16T17:13:49.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rushikesh\\Desktop\\INTERVIEW\\Assesment\\CRN-Technical-Assesment\\src\\API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\API\\Program.cs",
+              "ToolTip": "C:\\Users\\Rushikesh\\Desktop\\INTERVIEW\\Assesment\\CRN-Technical-Assesment\\src\\API\\Program.cs",
+              "RelativeToolTip": "src\\API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T17:01:16.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Rushikesh\\Desktop\\INTERVIEW\\Assesment\\CRN-Technical-Assesment\\src\\Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Rushikesh\\Desktop\\INTERVIEW\\Assesment\\CRN-Technical-Assesment\\src\\Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "src\\Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T16:59:49.337Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,0 +1,8 @@
+C:\Users\Rushikesh\Desktop\INTERVIEW\Assesment\CRN-Technical-Assesment\tests\API.Tests\bin\Debug\net10.0\.msCoverageSourceRootsMapping_API.Tests
+C:\Users\Rushikesh\Desktop\INTERVIEW\Assesment\CRN-Technical-Assesment\tests\API.Tests\bin\Debug\net10.0\CoverletSourceRootsMapping_API.Tests
+C:\Users\Rushikesh\Desktop\INTERVIEW\Assesment\CRN-Technical-Assesment\tests\API.Tests\obj\Debug\net10.0\API.Tests.csproj.AssemblyReference.cache
+C:\Users\Rushikesh\Desktop\INTERVIEW\Assesment\CRN-Technical-Assesment\tests\API.Tests\obj\Debug\net10.0\API.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rushikesh\Desktop\INTERVIEW\Assesment\CRN-Technical-Assesment\tests\API.Tests\obj\Debug\net10.0\API.Tests.AssemblyInfoInputs.cache
+C:\Users\Rushikesh\Desktop\INTERVIEW\Assesment\CRN-Technical-Assesment\tests\API.Tests\obj\Debug\net10.0\API.Tests.AssemblyInfo.cs
+C:\Users\Rushikesh\Desktop\INTERVIEW\Assesment\CRN-Technical-Assesment\tests\API.Tests\obj\Debug\net10.0\API.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Rushikesh\Desktop\INTERVIEW\Assesment\CRN-Technical-Assesment\tests\API.Tests\obj\Debug\net10.0\API.Tests.sourcelink.json
