@@ -1,24 +1,39 @@
 [
   {
-    "ContainingType": "API.Controllers.ProductsController",
-    "Method": "GetAll",
-    "RelativePath": "api/v{version}/Products",
-    "HttpMethod": "GET",
+    "ContainingType": "API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "version",
-        "Type": "",
+        "Name": "request",
+        "Type": "Application.DTOs.LoginRequest",
         "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "API.Controllers.ProductsController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ProductsController",
     "Method": "Create",
-    "RelativePath": "api/v{version}/Products",
+    "RelativePath": "api/v1/Products",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -27,11 +42,6 @@
         "Name": "productDto",
         "Type": "Application.DTOs.ProductDto",
         "IsRequired": true
-      },
-      {
-        "Name": "version",
-        "Type": "",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -39,7 +49,7 @@
   {
     "ContainingType": "API.Controllers.ProductsController",
     "Method": "GetById",
-    "RelativePath": "api/v{version}/Products/{id}",
+    "RelativePath": "api/v1/Products/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -48,11 +58,6 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
-      },
-      {
-        "Name": "version",
-        "Type": "",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -60,7 +65,7 @@
   {
     "ContainingType": "API.Controllers.ProductsController",
     "Method": "Update",
-    "RelativePath": "api/v{version}/Products/{id}",
+    "RelativePath": "api/v1/Products/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -74,11 +79,6 @@
         "Name": "productDto",
         "Type": "Application.DTOs.ProductDto",
         "IsRequired": true
-      },
-      {
-        "Name": "version",
-        "Type": "",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -86,7 +86,7 @@
   {
     "ContainingType": "API.Controllers.ProductsController",
     "Method": "Delete",
-    "RelativePath": "api/v{version}/Products/{id}",
+    "RelativePath": "api/v1/Products/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -95,13 +95,28 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
-      },
-      {
-        "Name": "version",
-        "Type": "",
-        "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.Version1Controller",
+    "Method": "Get",
+    "RelativePath": "api/v1/version",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.version2Controller",
+    "Method": "Get",
+    "RelativePath": "api/v2/version",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]
